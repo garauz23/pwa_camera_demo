@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Camera Preview
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="cameraPreview" class="cameraPreview"></div>
+  <ion-button expand="full" (click)="startCamera()">Start Camera</ion-button>
+  <ion-button expand="full" (click)="stopCamera()">Stop Camera</ion-button>
+  <ion-button expand="full" (click)="takePicture()">Take Picture</ion-button>
+  <ion-button expand="full" (click)="switchCamera()">Switch Camera</ion-button>
+</ion-content>
